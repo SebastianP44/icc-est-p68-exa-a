@@ -1,3 +1,6 @@
+import models.League;
+import models.Player;
+import models.Team;
 
 public class App {
 
@@ -154,6 +157,7 @@ public class App {
 
                 System.out.println(
                                 "Bienvenido al sistema de ligas de futbol. Por favor configure su fila en student.env y ejecute los tests automaticos para validar su implementacion.");
+                System.out.println();
                 // TODO: Imprimir listado original
                 // Ejemplo:
                 // System.out.println("Listado original:");
